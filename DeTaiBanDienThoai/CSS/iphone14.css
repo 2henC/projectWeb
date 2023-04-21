@@ -75,6 +75,10 @@
     text-align: center;
 }
 
+.option {
+    cursor: pointer;
+}
+
 .product-options>div {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: rgb(247, 249, 250);
@@ -102,6 +106,10 @@
 .product-colors {
     align-items: center;
     margin-top: 8px;
+}
+
+.color {
+    cursor: pointer;
 }
 
 .product-endow {
@@ -161,12 +169,14 @@
     color: white;
     padding: 8px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 .pay-after {
     margin-top: 4px;
     justify-content: space-between;
     line-height: 20px;
+    cursor: pointer;
 }
 
 .pay-after-1, .pay-after-2 {
