@@ -7,6 +7,10 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.df {
+    display: flex;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -135,7 +139,7 @@ html {
     background-color: rgb(177 168 168 / 0%);
     border-radius: 8px;
     padding: 3px 5px 0 5px;
-
+    align-items: center;
 }
 
 .header-call a {
@@ -148,6 +152,8 @@ html {
     text-decoration: none;
     color: #fff;
     font-size: 12px;
+    text-align: center;
+    align-items: center;
 }
 
 .header-position {
@@ -160,7 +166,8 @@ html {
     border-radius: 8px;
     width: 90px;
     padding: 6px 4px 0 5px;
-
+    align-items: center;
+    text-align: center;
 }
 
 .header-position a {
@@ -180,6 +187,9 @@ html {
     border-radius: 8px;
     width: 85px;
     padding-top: 6px;
+    align-items: center;
+    text-align: center;
+    padding-left: 4px;
 }
 
 .header-check a {
@@ -198,9 +208,10 @@ html {
     height: 44px;
     background-color: rgb(177 168 168 / 0%);
     border-radius: 8px;
-    width: 64px;
+    width: 94px;
     padding-top: 6px;
-
+    text-align: center;
+    align-items: center;
 }
 
 .header-shopping a {
