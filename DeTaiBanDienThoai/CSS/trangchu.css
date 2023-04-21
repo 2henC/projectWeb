@@ -874,24 +874,27 @@ p {
     height: 100%;
 }
 
-.header-category ul{
+.header-category ul {
     margin-top: 14px;
     margin-left: -30px;
-    
+
 }
 
-.header-category ul li{
+.header-category ul li {
     display: none;
 }
-.header-category ul:hover{
+
+.header-category ul:hover {
     height: 150px;
     /* background-color: #fff; */
-    
+
 }
-.header-category:hover a i{
+
+.header-category:hover a i {
     color: rgb(0, 149, 255);
 }
-.header-category ul:hover li{
+
+.header-category ul:hover li {
     display: block;
     margin-top: 15px;
     text-align: left;
@@ -900,13 +903,88 @@ p {
     /* text-decoration: overline; */
     /* background-color: #ffffff; */
 }
-.header-category ul li:hover{
+
+.header-category ul li:hover {
     color: aqua;
     /* background-color: #fff; */
 }
 
-.header-category:hover{
+.header-category:hover {
     height: 150px;
     background-color: #3e3e3e;
     color: rgb(0, 149, 255);
+}
+
+/* Bắt đầu của phần footer */
+
+.footer {
+    padding: 32px 0px 32px 0px;
+    justify-content: space-around;
+    height: max-content;
+    background-color: rgb(0, 174, 255);
+}
+
+.footer h2 {
+    color: #ffffff;
+}
+
+.footer-left {
+    gap: 64px;
+    text-align: left;
+}
+
+.about,
+.help,
+.contact,
+.receive {
+    flex-direction: column;
+    gap: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.contact>div {
+    color: black;
+    font-weight: 700;
+}
+
+.sub-email {
+    line-height: 24px;
+    width: fit-content;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.sub {
+    background-color: #9b9b9b;
+    padding: 4px 8px;
+    gap: 8px;
+    border-radius: 8px;
+    color: white
+}
+
+.sub:hover {
+    cursor: pointer;
+    background-color: #000;
+}
+
+.email {
+    border-radius: 4px;
+}
+
+.social {
+    gap: 26px;
+    width: fit-content;
+    padding: 4px;
+}
+
+.social>img {
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 4px;
+    background-color: antiquewhite;
+}
+
+.social>img:hover {
+    cursor: pointer;
 }
